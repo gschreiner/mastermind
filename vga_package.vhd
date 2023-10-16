@@ -13,6 +13,7 @@ package vga_package is
 	constant  COLOR_ORANGE  : color_type := X"F80";
 	constant  COLOR_RED     : color_type := X"F00";
 	constant  COLOR_GREEN   : color_type := X"0F0";
+	constant  COLOR_GREEN_UFFS   : color_type := X"295";
 	constant  COLOR_BLUE    : color_type := X"00F";
 	constant  COLOR_YELLOW  : color_type := X"FF0";
 	constant  COLOR_CYAN		: color_type := X"0FF";
