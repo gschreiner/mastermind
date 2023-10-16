@@ -1,0 +1,6 @@
+KEY3 -> Troca a posição entre as cores
+KEY2 -> Troca a cor da posição
+KEY1 -> Envia a jogada
+
+SW9 -> Deve estar em 1, é usada para dizer que o game esta rodando
+SW1- Deve estar em off, ela é uma forma de olhar o conjunto de cores esperado... Digamos um exibir a resposta.
