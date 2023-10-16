@@ -54,7 +54,7 @@ architecture RTL of view is
 	(LEFT_MARGIN * 2  + (SQUARES_NUMBER * (SQUARE_SIZE + SQUARE_SPACING)) * 2 + SQUARE_SPACING) / 2;
 	constant TOP_SPACING_TO_CENTER  : positive := 32;
 	
-	constant BACKGROUND_COLOR : color_type := COLOR_BLACK;
+	constant BACKGROUND_COLOR : color_type := COLOR_GREEN_UFFS;
 	constant TABLES_COLOR     : color_type := COLOR_BROWN;
 	constant SELECTION_COLOR  : color_type := COLOR_WHITE;
 	constant TEXT_COLOR       : color_type := COLOR_WHITE;
