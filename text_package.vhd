@@ -11,9 +11,9 @@ package text_package is
 	constant TEXT_Y : integer := 480/2;
 	
 	constant TITLE_TEXT   : string := "M A S T E R M I N D";
-	constant INTRO_TEXT   : string := "Premi un qualsiasi KEY da 1 a 3 per iniziare a giocare";
-	constant WIN_TEXT     : string := "Hai vinto! La combinazione e' corretta!";
-	constant LOSE_TEXT    : string := "Hai perso! La combinazione era:";
+	constant INTRO_TEXT   : string := "Use KEY 1 a 3 para iniciar o jogo";
+	constant WIN_TEXT     : string := "Parabens!!! Acertou as cores!";
+	constant LOSE_TEXT    : string := "Errroou! As cores eram:";
 	
 	type message is (TITLE, INTRO, WIN, LOSE);
 	
