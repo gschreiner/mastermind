@@ -71,11 +71,11 @@ begin
 	end process;
 	
 	char_codes(0) <= character'pos(TITLE_TEXT(char_position));
-	char_codes(1) <= character'pos(INTRO_TEXT(char_position));
-	char_codes(2) <= character'pos(WIN_TEXT(char_position));
-	char_codes(3) <= character'pos(LOSE_TEXT(char_position));
+	char_codes(1) <= (character'pos(INTRO_TEXT(char_position)))-1;
+	char_codes(2) <= character'pos(WIN_TEXT(char_position))-2;
+	char_codes(3) <= (character'pos(LOSE_TEXT(char_position)))-2;
 	
-	font_address <= char_codes(message'POS(CHOSEN_TEXT)) * 16 + y_counter;
+	font_address <= (char_codes((message'POS(CHOSEN_TEXT)))) * 16 + y_counter;
 	
 	pixel <= char_bit_in_row(FONT_WIDTH-bit_position);
 		        
